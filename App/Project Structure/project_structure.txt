@@ -1,0 +1,106 @@
+TaskFlow/
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Input.tsx
+│   │   │   ├── Loading.tsx
+│   │   │   ├── Modal.tsx
+│   │   │   └── Header.tsx
+│   │   ├── task/
+│   │   │   ├── TaskItem.tsx
+│   │   │   ├── TaskList.tsx
+│   │   │   ├── TaskForm.tsx
+│   │   │   ├── TaskFilter.tsx
+│   │   │   └── TaskStats.tsx
+│   │   └── reminder/
+│   │       ├── ReminderForm.tsx
+│   │       ├── ReminderList.tsx
+│   │       └── TimePickerModal.tsx
+│   │
+│   ├── screens/
+│   │   ├── HomeScreen.tsx
+│   │   ├── TaskDetailScreen.tsx
+│   │   ├── AddTaskScreen.tsx
+│   │   ├── EditTaskScreen.tsx
+│   │   ├── RemindersScreen.tsx
+│   │   ├── CategoriesScreen.tsx
+│   │   ├── SettingsScreen.tsx
+│   │   ├── StatisticsScreen.tsx
+│   │   └── SearchScreen.tsx
+│   │
+│   ├── navigation/
+│   │   ├── AppNavigator.tsx
+│   │   ├── TabNavigator.tsx
+│   │   └── StackNavigator.tsx
+│   │
+│   ├── store/
+│   │   ├── slices/
+│   │   │   ├── taskSlice.ts
+│   │   │   ├── reminderSlice.ts
+│   │   │   ├── categorySlice.ts
+│   │   │   └── settingsSlice.ts
+│   │   ├── store.ts
+│   │   └── index.ts
+│   │
+│   ├── services/
+│   │   ├── storage/
+│   │   │   ├── AsyncStorageService.ts
+│   │   │   └── DatabaseService.ts
+│   │   ├── notifications/
+│   │   │   ├── NotificationService.ts
+│   │   │   └── PushNotificationService.ts
+│   │   ├── api/
+│   │   │   ├── ApiService.ts
+│   │   │   └── SyncService.ts
+│   │   └── location/
+│   │       └── LocationService.ts
+│   │
+│   ├── hooks/
+│   │   ├── useTask.ts
+│   │   ├── useReminder.ts
+│   │   ├── useStorage.ts
+│   │   ├── useNotification.ts
+│   │   └── useTheme.ts
+│   │
+│   ├── utils/
+│   │   ├── constants.ts
+│   │   ├── helpers.ts
+│   │   ├── dateUtils.ts
+│   │   ├── validationUtils.ts
+│   │   └── colorUtils.ts
+│   │
+│   ├── styles/
+│   │   ├── colors.ts
+│   │   ├── fonts.ts
+│   │   ├── spacing.ts
+│   │   ├── globalStyles.ts
+│   │   └── themes.ts
+│   │
+│   ├── types/
+│   │   ├── task.ts
+│   │   ├── reminder.ts
+│   │   ├── category.ts
+│   │   ├── navigation.ts
+│   │   └── common.ts
+│   │
+│   └── assets/
+│       ├── images/
+│       ├── icons/
+│       └── fonts/
+│
+├── __tests__/
+│   ├── components/
+│   ├── screens/
+│   ├── services/
+│   └── utils/
+│
+├── android/
+├── ios/
+├── App.tsx
+├── index.js
+├── package.json
+├── tsconfig.json
+├── metro.config.js
+├── react-native.config.js
+└── README.md

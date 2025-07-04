@@ -1,0 +1,101 @@
+<svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue rounded square background -->
+  <rect x="10" y="10" width="80" height="80" rx="20" ry="20" fill="#1E90FF">
+    <animateTransform 
+      attributeName="transform" 
+      type="translate" 
+      values="0,100; 0,-10; 0,5; 0,-2; 0,0" 
+      dur="1.5s" 
+      begin="0s" 
+      fill="freeze"
+    />
+  </rect>
+  
+  <!-- White checkmark -->
+  <path d="M30 50 L45 65 L70 35" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <animateTransform 
+      attributeName="transform" 
+      type="translate" 
+      values="0,100; 0,-10; 0,5; 0,-2; 0,0" 
+      dur="1.5s" 
+      begin="0.2s" 
+      fill="freeze"
+    />
+  </path>
+  
+  <!-- Text "Tasky" -->
+  <!-- Letter T -->
+  <text x="110" y="65" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000">
+    <tspan opacity="0">T
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.8s" fill="freeze"/>
+      <animateTransform 
+        attributeName="transform" 
+        type="translate" 
+        values="0,20; 0,-5; 0,2; 0,0" 
+        dur="0.8s" 
+        begin="1.8s" 
+        fill="freeze"
+      />
+    </tspan>
+  </text>
+  
+  <!-- Letter a -->
+  <text x="140" y="65" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000">
+    <tspan opacity="0">a
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.0s" fill="freeze"/>
+      <animateTransform 
+        attributeName="transform" 
+        type="translate" 
+        values="0,20; 0,-5; 0,2; 0,0" 
+        dur="0.8s" 
+        begin="2.0s" 
+        fill="freeze"
+      />
+    </tspan>
+  </text>
+  
+  <!-- Letter s -->
+  <text x="170" y="65" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000">
+    <tspan opacity="0">s
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.2s" fill="freeze"/>
+      <animateTransform 
+        attributeName="transform" 
+        type="translate" 
+        values="0,20; 0,-5; 0,2; 0,0" 
+        dur="0.8s" 
+        begin="2.2s" 
+        fill="freeze"
+      />
+    </tspan>
+  </text>
+  
+  <!-- Letter k -->
+  <text x="195" y="65" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000">
+    <tspan opacity="0">k
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.4s" fill="freeze"/>
+      <animateTransform 
+        attributeName="transform" 
+        type="translate" 
+        values="0,20; 0,-5; 0,2; 0,0" 
+        dur="0.8s" 
+        begin="2.4s" 
+        fill="freeze"
+      />
+    </tspan>
+  </text>
+  
+  <!-- Letter y -->
+  <text x="225" y="65" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#000">
+    <tspan opacity="0">y
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.6s" fill="freeze"/>
+      <animateTransform 
+        attributeName="transform" 
+        type="translate" 
+        values="0,20; 0,-5; 0,2; 0,0" 
+        dur="0.8s" 
+        begin="2.6s" 
+        fill="freeze"
+      />
+    </tspan>
+  </text>
+</svg>
