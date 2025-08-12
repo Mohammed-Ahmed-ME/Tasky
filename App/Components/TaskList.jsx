@@ -7,19 +7,19 @@ import EmptyState from './EmptyState';
 
 const TaskList = ({
                     tasks,
+                    setTasks,
                     loading,
                     error,
                     searchQuery,
                     selectedCategory,
                     categories,
-                    onToggleComplete,
                     onTaskPress,
                     onRetry,
                     onAddTask,
                   }) => {
   const getSectionTitle = () => {
     if (selectedCategory === 'all') return 'All Tasks';
-    const category = categories.find(c => c.id === selectedCategory);
+    const category = categories?.find(c => c.id === selectedCategory);
     return `${category?.name || 'Unknown'} Tasks`;
   };
 
@@ -54,8 +54,9 @@ const TaskList = ({
           renderItem={({ item }) => (
             <TaskCard
               data={item}
-              onToggleComplete={() => onToggleComplete(item.id)}
               onPress={() => onTaskPress(item)}
+              tasks={tasks}
+              setTasks={setTasks}
             />
           )}
           scrollEnabled={false}
